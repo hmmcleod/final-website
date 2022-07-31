@@ -4,17 +4,17 @@
     
 @font-face {
     font-family: font1-light;
-    src: url(/assets/fonts/Quicksand-Light.ttf);
+    src: url(/final-website/assets/fonts/Quicksand-Light.ttf);
 }
 
 @font-face {
     font-family: font1-regular;
-    src: url(/assets/fonts/Quicksand-Regular.ttf);
+    src: url(/final-website/assets/fonts/Quicksand-Regular.ttf);
 }
 
 @font-face {
     font-family: font1-bold;
-    src: url(/assets/fonts/Quicksand-Bold.ttf);
+    src: url(/final-website/assets/fonts/Quicksand-Bold.ttf);
 }
 h1 {
     width: 100%;
