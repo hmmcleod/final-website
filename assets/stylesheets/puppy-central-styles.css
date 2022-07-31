@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;}
+    
+@font-face {
+    font-family: font1-light;
+    src: url(/assets/fonts/Quicksand-Light.ttf);
+}
+
+@font-face {
+    font-family: font1-regular;
+    src: url(/assets/fonts/Quicksand-Regular.ttf);
+}
+
+@font-face {
+    font-family: font1-bold;
+    src: url(/assets/fonts/Quicksand-Bold.ttf);
+}
+h1 {
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    padding-top: 5%;
+    font-family: font1-light, sans-serif;
+    font-size: 3.75em;
+    font-weight: 300;
+    color: rgb(0, 45, 57)
+}
+h2 {
+    font-family: font1-bold, sans-serif;
+    color: rgb(1, 110, 130)
+}
+h3 {
+    font-family: font1-bold, sans-serif;
+    color: rgb(0, 45, 57);
+    font-size: 20pt;
+}
+h4 {
+    font-family: font1-bold, sans-serif;
+    color: rgb(0, 45, 57);
+    font-size: 16pt;
+}
+h5 {
+    font-family: font1-bold, sans-serif;
+    color: white;
+    font-size: 12pt;
+}
+
+p {
+    font-family: font1-regular, sans-serif;
+    color: rgb(0, 45, 57);
+}
+li {
+    font-family: font1-regular, sans-serif;
+    color: rgb(0, 45, 57);
+}
+
+
+
+/*TOP BAR NAVIGATION*/
+a.home-logo {float: left;}
+nav {
+    height: 60px;
+    padding: 1% 2% 0 .5%;
+    width: auto;
+}
+nav ul li {
+    float: right;
+    padding: 10px;
+    list-style: none;
+}
+
+#search-icon {float:right;}
+
+#nav-list ul li a {
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12pt;
+}
+
+nav a:link {color: rgb(0, 45, 57);}
+nav a:visited {color: rgb(0, 45, 57);}
+
+
+
+/*FOOTER*/
+footer {
+font-family: font1-regular, sans-serif;
+font-size: 9pt !important;
+background-color: #016f82;
+width: 100%;
+padding: 0;
+height: 2.5%;
+}
+.foot {
+    padding: 1%;
+    background-color: #016f82;
+    height: 100%;
+}
+
+.nav-list-footer {
+    float: left;
+}
+
+.nav-list-footer ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-content: baseline;
+    float: left;
+}
+
+.nav-list-footer ul li {
+    padding: 0 2% 0 2%;
+    white-space: nowrap;
+}
+
+footer a {
+    text-decoration: none; 
+}
+
+footer a:hover {text-decoration: none;}
+footer a:link {color: white;}
+footer a:visited {color: white;}
+
+.social-icons a {
+    padding: .25% .75% 0 .75%;
+    float: right;
+}
+
+
+
+@media (min-width: 801px) {
+    .mobile-hamburger {display: none;}
+}
+
+@media (max-width: 800px) {
+    #nav-list {display: none;}
+    .nav-list-footer {display: none;}
+    .social-icons a {float: none;}
+    div.social-icons {text-align: center; height: 100%}
+    .foot {
+        padding: 1%; height: 98%;}
+    footer {height: 15px;}
+}

@@ -1,0 +1,189 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Puppy Central Sit</title>
+    <link rel="shortcut icon" href="/assets/images/paw-icon.png">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="/assets/stylesheets/puppy-central-styles.css"/>
+    <style>
+        #bulldog {
+            float: right;
+            max-width: 30%;
+            border-radius: 10pt;
+            vertical-align: center;
+        }
+
+        #sit-steps li {
+            padding-top: 8pt;
+        }
+
+        div>div.carousel-area {padding: 4em 25% 6em 25%;}
+
+        .carousel-area {clear: both; margin: 0;}
+        
+        #teaching-sit {width: 60%; float: left;}
+        
+        
+    
+        ul {margin-bottom: 0;}
+
+        #nav-list-footer ul li a {text-decoration: none;}
+        
+        footer {
+        font-family: font1-regular, sans-serif;
+        font-size: 9pt !important;
+        background-color: #016f82;
+        width: 100%;
+        height: 5%;
+        padding: .5%;
+        }
+        .foot {
+            background-color: #016f82;
+            height: 100%;
+            padding: 0;
+        }
+
+        @media (max-width: 800px) {
+            #bulldog {display: none;}
+            #teaching-sit {float: none; margin: auto; width: 80%;}
+            .foot {height: 100%;}
+            footer {height: 30px; padding: 1%;}
+        }
+
+    </style>
+</head>
+
+<nav>
+    <!--UPPER LEFT LOGO-->
+    <a href="/index.html"><img id="home-logo" src="/assets/images/logo-puppy-central.png" height="100%" style="float: left"></a>
+    
+    <!--UPPER RIGHT SEARCH ICON-->
+    <div>
+        <img src="/assets/images/search.png" alt="search icon" id="search-icon" height="90%" style="float: right; padding: 10px 5px 10px 5px;">
+    </div>
+    
+    <!--MOBILE HAMBURGER-->
+    <div class="mobile-hamburger">
+        <a href="mob-nav-puppy-101.html"><img src="/assets/images/hamburger.png" alt="mobile menu" height="85%" width="auto" style="float: right; padding: 10px 5px 10px 5px;"></a>
+    </div>
+   
+    <!--HORIZONTAL NAVIGATION BUTTONS-->
+    <div id="nav-list">
+        <ul>
+            <li><a href="pics.html">Pics</a></li>
+            <li><a href="local-parks.html">Parks</a></li>
+            <li><a href="grooming.html">Grooming</a></li>
+            <li><a href="sit.html">Training</a></li>
+            <li><a href="puppy-101.html">Puppy 101</a></li>  
+        </ul>
+    </div>
+</nav>
+
+<body>
+    <h1 style="padding-bottom: 5%;">"Sit"</h1>
+
+    <div style="background-color: rgba(0, 171, 189, .15); float:left; padding: 2% 10% 2% 10%;">
+        <div id="teaching-sit">
+            <h2>
+                Teaching the “sit” command
+            </h2>
+            <p>
+                <ol id="sit-steps">
+                    <li>Get down in front of your puppy, holding a treat as a lure.</li>
+                    <li>Put the treat right in front of the pup&apos;s nose, then slowly lift the food above his head. He will probably sit as he lifts his head to nibble at the treat.</li>
+                    <li>Allow him to eat the treat when his bottom touches the ground.</li>
+                    <li>Repeat one or two times with the food lure, then remove the food and use just your empty hand, but continue to reward the puppy after he sits.</li>
+                    <li>Once he understands the hand signal to sit, you can begin saying “sit” right before you give the hand signal.</li>
+                </ol>
+            </p>
+        </div>
+        <img id="bulldog" src="/assets/images/bulldog-head.jpeg" alt="bulldog-picture">
+    </div>
+
+    <div>
+        <div class="carousel-area">
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                </ol>
+
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <img src="/assets/images/dachshund.jpeg" alt="Dachshund" style="width:100%;" />
+                        <div class="carousel-caption">
+                            <h5>Dachshund</h5>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <img src="/assets/images/goldendoodle.jpeg" alt="Goldendoodle" style="width:100%;" />
+                        <div class="carousel-caption">
+                            <h5>Goldendoodle</h5>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <img src="/assets/images/great-dane.jpeg" alt="Great-dane" style="width:100%;" />
+                        <div class="carousel-caption">
+                            <h5>Great Dane</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+    </div>   
+</body>
+
+<footer>
+    <div class="foot">
+        <div>
+            <div class="nav-list-footer">
+                <ul>
+                    <li id="logo"><a href="index.html"><img src="/assets/images/white-logo-paw-only.png" width="20px"></a></li>
+                    <li><a href="pics.html">Pics</a></li>
+                    <li><a href="local-parks.html">Parks</a></li>
+                    <li><a href="grooming.html">Grooming</a></li>
+                    <li><a href="sit.html">Training</a></li>
+                    <li><a href="puppy-101.html">Puppy 101</a></li>    
+                </ul>
+            </div>
+            
+            <div class="social-icons">
+                <!-- Facebook -->
+                <a href="https://www.facebook.com/" target="_blank"
+                class="fa fa-facebook-f fa-lg hover-color padding-right"></a>
+                <!--Instagram-->
+                <a href="https://www.instagram.com/" target="_blank"
+                class="fa fa-instagram fa-lg hover-color padding-right"></a>
+                <!-- Twitter -->
+                <a href="https://twitter.com/" target="_blank"
+                class="fa fa-twitter fa-lg hover-color padding-right"></a>
+                <!-- Pinterest -->
+                <a href="https://www.pinterest.com/" target="_blank"
+                class="fa fa-pinterest fa-lg hover-color padding-right"></a>
+                <!-- Linkedin -->
+                <a href="https://www.linkedin.com/" target="_blank"
+                class="fa fa-linkedin fa-lg hover-color padding-right"></a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script type="text/JavaScript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script type="text/JavaScript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+</html>
